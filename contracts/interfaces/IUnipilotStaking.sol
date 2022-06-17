@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.13;
 
-interface IStaking {
+interface IUnipilotStaking {
     function stake(uint256 amount) external;
 
     function unstake(uint256 amount) external;

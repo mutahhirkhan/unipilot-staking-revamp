@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.13;
-import "./interfaces/IStaking.sol";
+import "./interfaces/IUnipilotStaking.sol";
 
-contract Staking is IStaking {
+contract UnipilotStaking is IUnipilotStaking {
     uint256 public totalStakedAmount;
 
 
